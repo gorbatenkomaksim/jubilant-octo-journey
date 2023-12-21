@@ -1,0 +1,12 @@
+case .removeSelectedPoints:
+            newState.selectedPointsIDs.removeAll()
+            
+        case .switchEditMode:
+            newState.editMode.next()
+                                            elementsTransformer: elementsTransformer)
+        
+        return AppReducer(collageReducer: collageReducer,
+                          gestureReducer: gestureReducer)
+    }
+}
+
